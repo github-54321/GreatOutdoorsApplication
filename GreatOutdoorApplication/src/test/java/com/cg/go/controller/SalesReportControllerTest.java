@@ -12,7 +12,6 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpStatus;
-import com.cg.go.GreatOutdoorApplication;
 import com.cg.go.entity.ProductEntity;
 import com.cg.go.entity.SalesReportEntity;
 import com.cg.go.exception.SalesReportException;

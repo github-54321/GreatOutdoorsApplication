@@ -1,27 +1,18 @@
 package com.cg.go.service;
-
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
-import java.util.stream.Collectors;
-
 import javax.transaction.Transactional;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.cg.go.controller.OrderEntityController;
 import com.cg.go.dao.ICartRepository;
 import com.cg.go.dao.IProductRepository;
 import com.cg.go.dao.IUserRepository;
 import com.cg.go.entity.CartItemEntity;
-import com.cg.go.entity.OrderEntity;
 import com.cg.go.entity.ProductEntity;
 import com.cg.go.entity.Userdata;
 import com.cg.go.exception.CartException;
-import com.cg.go.exception.OrderException;
 import com.cg.go.pojo.Cart;
 //indication of holding the business logic
 @Service
